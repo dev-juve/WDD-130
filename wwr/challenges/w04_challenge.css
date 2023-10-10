@@ -1,0 +1,40 @@
+main {
+    background-color: pink;
+}
+
+#main-title:hover {
+color: black;
+}
+
+#top {
+    text-align: center;
+    color: white;
+}
+#author-name {
+    font-weight: bold;
+}
+
+div.list {
+    text-align: center;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#main-para {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.bottom p {
+    text-align: center;
+    padding-bottom: 50px;
+}
