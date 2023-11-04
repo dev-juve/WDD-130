@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #463F3A   ;
   --secondary-color: #F4F3EE ;
   --accent1-color: #BCB8B1;
-  --accent2-color: #8B80F9;
+  --accent2-color: #0f4699;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Fjalla One";
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #463F3A;
   --nav-link-color: #F4F3EE;
   --nav-background-color: #463F3A;
-  --nav-hover-link-color: #8B80F9;
+  --nav-hover-link-color: #0f4699;
   --nav-hover-background-color: #BCB8B1;
 }
 
