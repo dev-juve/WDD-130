@@ -219,6 +219,49 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+/* Page 2 - Our rivers*/
+
+#rivers-main-headline {
+    text-align: center;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.main-fork-river {
+    grid-column: 1/3;
+}
+.desolation-river {
+    grid-column: 4/8;
+}
+.grand-canyon-river {
+    grid-column: 9/13;
+}
+.book-now{
+    background-color: #caf0f8;
+    color: #03045e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+h5 {
+    margin: 10px;
+}
+.user-testimonial{
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: -20px;
+}
+.checked {
+    color: orange;
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
