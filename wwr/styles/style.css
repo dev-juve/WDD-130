@@ -227,10 +227,10 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 20px;
 }
-/*.rivers-grid > div {
+.rivers-grid > div {
     height: 100%;
     width: 100%;
-}*/
+}
 
 
 .rivers-grid {
@@ -239,6 +239,7 @@ footer p a:hover {
     /*grid-template-rows: auto;*/
     grid-column-gap: 20px;
     /*border: black 6px solid;*/
+    justify-items: center;
 }
 .river-img {
     width: 400px;
@@ -247,6 +248,7 @@ footer p a:hover {
 .river-map {
     width: 400px;
     height: 400px;
+    margin-top: 30px;
 }
 
 .main-fork-river {
@@ -278,8 +280,16 @@ h5 {
 .rivers p{
     font-size: .8em;
     line-height: 1.5em;
-    padding: 35px;
-    margin-top: -20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ratings {
+    margin-bottom: 80px;
+}
+.river-description {
+    margin-bottom: 80px;
+
 }
 .checked {
     color: orange;
