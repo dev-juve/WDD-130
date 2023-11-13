@@ -229,7 +229,6 @@ footer p a:hover {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 20px;
-    /*border: black 6px solid;*/
     justify-items: center;
     justify-self: center;
 }
@@ -242,20 +241,18 @@ footer p a:hover {
     width: 320px;
     height: 300px;
     margin-top: 30px;
+    margin-bottom: -150px;
 }
 
 .main-fork-river {
-    /*border: black 6px solid;*/
     grid-column: 1/4;
 }
 
 .desolation-river {
     grid-column: 5/8;
-    /*border: black 6px solid;*/
 }
 .grand-canyon-river {
     grid-column: 9/12;
-    /*border: black 6px solid;*/
 }
 
 .book-now {
@@ -263,38 +260,32 @@ footer p a:hover {
     color: #03045e;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 15px 20px;
     margin-top: 0px;
     border-radius: 5px;
 }
+
 
 .book-now:hover {
     background-color: transparent;
     color: black;
     text-decoration: underline;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
+
 }
 
-/* Center text within grid items */
-.rivers-grid h5,
-.rivers-grid p {
-    text-align: center;
-}
-
-/* ... (your existing styles) ... */
-This should help center both the grid items and the text within those items. Adjust the selectors as needed based on the structure of your HTML.
-
-
-
-
-
+/*.button-box {
+    position: relative;
+}*/
 
 h5 {
     margin: 10px;
+    text-align: center;
 }
-.rivers p{
+.rivers p {
     font-size: .8em;
     line-height: 1.5em;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
     text-align: center;
 }
