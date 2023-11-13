@@ -41,10 +41,6 @@ nav {
     margin-top: 100px;
 }
 
-/*#hero-msg h4 {
-    color: #caf0f8;
-}*/
-
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: #caf0f8;
@@ -227,27 +223,24 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 20px;
 }
-.rivers-grid > div {
-    height: 100%;
-    width: 100%;
-}
-
-
 .rivers-grid {
+    width: 90%;
+    margin: 0 10%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /*grid-template-rows: auto;*/
     grid-column-gap: 20px;
     /*border: black 6px solid;*/
     justify-items: center;
+    justify-self: center;
 }
+
 .river-img {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 300px;
 }
 .river-map {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 300px;
     margin-top: 30px;
 }
 
@@ -257,23 +250,44 @@ footer p a:hover {
 }
 
 .desolation-river {
-    grid-column: 4/8;
+    grid-column: 5/8;
     /*border: black 6px solid;*/
 }
 .grand-canyon-river {
-    grid-column: 8/12;
-   /* border: black 6px solid;*/
+    grid-column: 9/12;
+    /*border: black 6px solid;*/
 }
 
-.book-now{
+.book-now {
     background-color: #caf0f8;
     color: #03045e;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin-top: 0px;
     border-radius: 5px;
 }
+
+.book-now:hover {
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Center text within grid items */
+.rivers-grid h5,
+.rivers-grid p {
+    text-align: center;
+}
+
+/* ... (your existing styles) ... */
+This should help center both the grid items and the text within those items. Adjust the selectors as needed based on the structure of your HTML.
+
+
+
+
+
+
 h5 {
     margin: 10px;
 }
