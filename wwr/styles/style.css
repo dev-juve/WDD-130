@@ -274,14 +274,11 @@ footer p a:hover {
 
 }
 
-/*.button-box {
-    position: relative;
-}*/
-
 h5 {
     margin: 10px;
     text-align: center;
 }
+
 .rivers p {
     font-size: .8em;
     line-height: 1.5em;
@@ -289,12 +286,18 @@ h5 {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .ratings {
     margin-bottom: 80px;
 }
+
 .river-description {
     margin-bottom: 80px;
 
+}
+
+#upper {
+    margin-top: -16px;
 }
 .checked {
     color: orange;
