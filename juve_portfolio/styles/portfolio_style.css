@@ -31,11 +31,11 @@ header {
     border: #F4F3EE 2px solid;
     border-radius: 50%;
     grid-column: 1/2;
-    justify-self: right;
+    margin-left: 60px;
 }
 
 nav {
-    /* display: flex; */
+    display: flex;
     justify-content: space-around;
     grid-column: 2/3;
 }
@@ -60,7 +60,8 @@ nav a:hover {
     border-radius: 50%;
     border: #0f4699 2px solid;
     grid-column: 3/4;
-    justify-self: center;
+    justify-self: right;
+    margin-right: 60px;
 }
 
 #hero-box {
@@ -83,9 +84,9 @@ nav a:hover {
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    color: #0f4699;
+    color: black;
     z-index: 1;
 }
 
@@ -119,17 +120,25 @@ span.bold {
     margin-right: auto;
     margin-bottom: 100px;
 }
-.projects h1, h4 {
+.projects h1, h3 {
     text-align: center;
 }
 .projects a {
+    grid-column: 1/2;
     font-size: 1.5em;
     color: #F4F3EE;
     text-decoration: none;
-    border: black solid 2px;
     padding-left: auto;
+    text-align: match-parent;
+    align-self: center;
+    justify-self: start;
+}
+.projects a:hover {
+    color: #0f4699;
 }
 .project-box {
+    display: grid;
+    grid-template-columns: 1fr;
     height: 50px;
     width: 100%;
     background-color: #463F3A;
@@ -138,3 +147,126 @@ span.bold {
     margin-right: auto;
     padding: auto;
 }
+.project-box:hover {
+    background-color: #BCB8B1;
+}
+
+.contactme h1 {
+    text-align: center;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #0f4699;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  form li + li {
+    margin-top: 1em;
+  }
+
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  button:hover {
+      background-color: #000;
+      color: white;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #BCB8B1;
+    margin-top: 100px;
+  }
+  
+  footer p {
+    padding-left: 20px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #a1:hover {
+    color: #0f4699;
+  }
+  #a2:hover {
+    color: #0f4699;
+  }
+  #a1 {
+    text-decoration: none;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-top: 10px;
+    padding-left: 20px;
+   /* align-self: center; */
+    font-size: 1.2em;
+    color: #000;
+  }
+  #a2 {
+    padding-top: 10px;
+    text-decoration: none;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 20px;
+    /*align-self: center;*/
+    font-size: 1.2em;
+    color: #000;
+  }
+  .social-links {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    text-align: center;
+    align-self: center;
+  }
