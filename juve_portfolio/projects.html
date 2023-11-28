@@ -4,74 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page | Juvenson's Porfolio Website</title>
+    <link href="styles/portfolio_style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a id="logo-link" href="index.html" >
-            <img id="logo-img" src="images/main-logo.png" alt="logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contactme.html"> Contact Me</a>
-        </nav>
-        <img id="profile-img" src="images/Juvenson-removebg-preview.png" alt="profile">
-    </header>
-    <main class="page2-grid">
-        <img src="images/project-icon.png" alt="project page icon">
-        <h1>Projects</h1>
-        <h4>Let's discover my creativity</h4>
-        <p>Welcome to the heart of my portfolio - the Projects page. 
-            Here, you'll find a curated collection of my coding adventures, ranging from open-source repositories to client websites I've meticulously crafted.
-            Each project here represents more than just lines of code; they embody my dedication, creativity, and problem-solving skills.
-            Through these repositories, you can delve into the world of software development that I've explored during my journey at BYU Idaho. 
-            From innovative algorithms to intuitive user interfaces, each project tells a unique story of challenges overcome and solutions delivered. 
-            Moreover, I'm immensely proud to share links to websites I've brought to life for my clients. 
-            These websites are not just digital spaces; they are living entities, tailored to meet specific needs and elevate online experiences. 
-            Navigating through these client projects will give you a glimpse into my commitment to creating impactful, user-friendly, and visually appealing web solutions. 
-            Feel free to explore, click around, and peek under the hood of these projects. 
-            They reflect my passion for technology and my dedication to delivering exceptional results. 
-            Whether you're a potential employer, a fellow developer, or someone interested in the digital realm, I invite you to witness the craftsmanship and creativity embedded in every line of code and every pixel on the screen. 
-            Thank you for taking the time to explore my projects. Each one represents a step forward in my journey as a software developer, and I'm excited to share them with you. 
-            Let's embark on this coding adventure together!
-        </p>
-        <img src="images/Juvenson-removebg-preview.png" alt="juve profile-img">
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/wwr/index.html">Dry Oar Whitewater Rafting Company Website</a>
-        </div>
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/index.html">My First Web Assignment</a>
-        </div>
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/">My Github Repository</a>
-        </div>
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
-        </div>
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
-        </div>
-        <div class="project-box">
-            <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
-        </div>
-    </main>
-    <footer>
-        <p>Juve's portfolio &copy; 2023 - Juvenson Elizaire</p>
-        <a href="portfolio-site-plan.html">My site plan</a>
-        <a href="contactme.html"> Contact Me</a>
-        <div class="social-links">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+    <div id="screen-width">
+        <header id="project-header">
+            <a id="logo-link" href="index.html" >
+                <img id="logo-img" src="images/main-logo.png" alt="logo">
             </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-
-    </footer>
-    
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contactme.html"> Contact Me</a>
+            </nav>
+            <img id="profile-img" src="images/Juvenson-removebg-preview.png" alt="profile">
+        </header>
+        <main class="page2-grid">
+            <img id="project-page-icon" src="images/project-icon.png" alt="project page icon">
+            <div id="project-headline">    
+                <h1>Projects</h1>
+                <h3>Let's discover my creativity</h3>
+            </div>    
+            <div id="text-box"> 
+                <p>Welcome to the heart of my portfolio - the Projects page.<br>
+                    Here, you'll find a curated collection of my coding adventures, ranging from open-source repositories to client websites I've meticulously crafted.
+                    Each project here represents more than just lines of code; they embody my dedication, creativity, and problem-solving skills.
+                    Through these repositories, you can delve into the world of software development that I've explored during my journey at BYU Idaho.
+                    From innovative algorithms to intuitive user interfaces, each project tells a unique story of challenges overcome and solutions delivered.<br> <br> 
+                    Moreover, I'm immensely proud to share links to websites I've brought to life for my clients. 
+                    These websites are not just digital spaces; they are living entities, tailored to meet specific needs and elevate online experiences. 
+                    Navigating through these client projects will give you a glimpse into my commitment to creating impactful, user-friendly, and visually appealing web solutions. 
+                    Feel free to explore, click around, and peek under the hood of these projects. 
+                    They reflect my passion for technology and my dedication to delivering exceptional results. 
+                    Whether you're a potential employer, a fellow developer, or someone interested in the digital realm, I invite you to witness the craftsmanship and creativity embedded in every line of code and every pixel on the screen.<br><br>
+                    Thank you for taking the time to explore my projects. Each one represents a step forward in my journey as a software developer, and I'm excited to share them with you. 
+                    Let's embark on this coding adventure together!
+                </p>
+            </div>    
+            <!-- <img id="banner-img" src="images/Juvenson-removebg-preview.png" alt="juve profile-img"> -->
+            <section id="project-sec">
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/wwr/index.html">Dry Oar Whitewater Rafting Company Website</a>
+                </div>
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/index.html">My First Web Assignment</a>
+                </div>
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/">My Github Repository</a>
+                </div>
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
+                </div>
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
+                </div>
+                <div class="project-box">
+                    <a href="dev-juve.github.io/wdd130/">Upcoming Project</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Juve's portfolio &copy; 2023 - Juvenson Elizaire</p>
+            <a id="a1" href="portfolio-site-plan.html">My site plan</a>
+            <a id="a2" href="contactme.html"> Contact Me</a>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
