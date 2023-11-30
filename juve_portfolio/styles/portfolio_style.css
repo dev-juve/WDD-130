@@ -5,7 +5,7 @@
     /* margin: 0 auto; */
 }
 
-#screen-width h1 {
+#screen-width h1, h2, h4 {
     font-family: "fjalla one";
 } 
 #screen-width p {
@@ -121,7 +121,7 @@ span.bold {
     margin-right: auto;
     margin-bottom: 100px;
 }
-.projects h1, h3 {
+.projects h2, h4 {
     text-align: center;
 }
 .projects a {
@@ -129,7 +129,7 @@ span.bold {
     font-size: 1.5em;
     color: #F4F3EE;
     text-decoration: none;
-    padding-left: auto;
+    /*padding-left: auto;*/
     text-align: match-parent;
     align-self: center;
     justify-self: start;
@@ -146,13 +146,13 @@ span.bold {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: auto;
+    /*padding: auto;*/
 }
 .project-box:hover {
     background-color: #BCB8B1;
 }
 
-.contactme h1 {
+.contactme h2 {
     text-align: center;
 }
 
@@ -306,7 +306,7 @@ text-align: center;
   font-size: 1.5em;
   color: #F4F3EE;
   text-decoration: none;
-  padding-left: auto;
+  /*padding-left: auto;*/
   align-self: center;
   justify-self: start;
 }
